@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Raspberry</id>
+    <version>1.0.0</version>
+    <authors>Raspberry</authors>
+    <owners>Raspberry</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="System.Device.Gpio" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Programming\Competitions\Makerthon\Raspberry\Raspberry\bin\Release\netcoreapp3.1\Raspberry.runtimeconfig.json" target="lib\netcoreapp3.1\Raspberry.runtimeconfig.json" />
+    <file src="C:\Programming\Competitions\Makerthon\Raspberry\Raspberry\bin\Release\netcoreapp3.1\Raspberry.dll" target="lib\netcoreapp3.1\Raspberry.dll" />
+  </files>
+</package>
